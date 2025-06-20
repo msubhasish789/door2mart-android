@@ -25,22 +25,24 @@ A full-stack e-commerce Android application for fruit & vegetable shopping built
 
 ## 📸 Screenshots
 
-<p float="left">
-  <img src="screens/login.png" width="200" />
-  <img src="screens/home.png" width="200" />
-  <img src="screens/cart.png" width="200" />
-  <img src="screens/track.png" width="200" />
-</p>
-
-## 📱 Screenshots
+## 📱 App Screenshots
 
 | Splash Screen | Login | Home |
 |---------------|-------|------|
-| ![Splash](screens/01_splash_screen.png) | ![Login](screens/02_login.png) | ![Home](screens/03_home.png) |
+| ![Splash](screens/splash_screen.png) | ![Login](screens/Login.png) | ![Home](screens/Home.png) |
 
-| Categories | Cart | Order Summary |
-|------------|------|----------------|
-| ![Category](screens/04_category.png) | ![Cart](screens/05_cart.png) | ![Order](screens/06_order_summary.png) |
+| Category | SubCategory | Product Page |
+|----------|-------------|--------------|
+| ![Category](screens/Category.png) | ![SubCategory](screens/subCategory.png) | ![Product Page](screens/Product%20Page.png) |
+
+| Cart | Order Summary | Order History |
+|------|----------------|----------------|
+| ![Cart](screens/Cart.png) | ![Order Details](screens/orderDetails.png) | ![Order History](screens/orderHistory.png) |
+
+| Address + Payment | Verification | Success |
+|-------------------|-------------|---------|
+| ![Payment](screens/orderAddressPayment.png) | ![Verification](screens/verification.png) | ![Success](screens/Succesfull%20Order.png) |
+
 
 
 ## 🚀 Setup Instructions
