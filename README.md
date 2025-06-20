@@ -17,6 +17,7 @@ A full-stack e-commerce Android application for fruit & vegetable shopping built
 | Layer            | Tech |
 |------------------|------|
 | Frontend (Android) | Java, Android SDK, Firebase |
+| Frontend (Admin-Web) | HTML, CSS, Javascript, Bootstrap |
 | Backend           | PHP, MySQL |
 | API Communication | Retrofit |
 | Auth              | Firebase PhoneAuth |
