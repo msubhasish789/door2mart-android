@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recview_bg"
+    tools:context=".UserVerification">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/baloo"
+        android:text="verify your OTP"
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Please type the verification code sent to"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobileNo">
+
+        <EditText
+            android:id="@+id/txt1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#F4E0A3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:shadowColor="#252424"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#EFD279"
+            app:barrierMargin="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/txt2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#F4E0A3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:shadowColor="#252424"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#EFD279"
+            app:barrierMargin="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="3dp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/txt3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#F4E0A3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:shadowColor="#252424"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#EFD279"
+            app:barrierMargin="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="3dp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/txt4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#F4E0A3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:shadowColor="#252424"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#EFD279"
+            app:barrierMargin="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="3dp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/txt5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#F4E0A3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:shadowColor="#252424"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#EFD279"
+            app:barrierMargin="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="3dp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/txt6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#F4E0A3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:shadowColor="#252424"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#EFD279"
+            app:barrierMargin="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="3dp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/round_bg"
+        android:backgroundTint="@color/green"
+        android:text="Verify OTP"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+    <TextView
+        android:id="@+id/mobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout4"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't Get OTP? "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/resendOTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="RESEND OTP"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

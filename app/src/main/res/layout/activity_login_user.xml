@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recview_bg"
+    tools:context=".LoginUser">
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:rotation="-50"
+      android:rotationX="0"
+      android:rotationY="0"
+      app:layout_constraintBottom_toTopOf="@+id/textView4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/ic_baseline_send_24" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="30dp"
+      android:fontFamily="@font/amarante"
+      android:text="Enter your phone number"
+      android:textColor="@color/black"
+      android:textSize="26sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/textView5"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="You will recieve a 6 digit code to phone number verification."
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/constraintLayout11"
+      app:layout_constraintEnd_toEndOf="@+id/textView4"
+      app:layout_constraintStart_toStartOf="@+id/textView4" />
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/constraintLayout11"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <TextView
+        android:id="@+id/waittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="please wait..."
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout10"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout10"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout10" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_bg"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+      <EditText
+          android:id="@+id/mobileNum"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:hint="Phone No."
+          android:inputType="numberDecimal"
+          android:maxLength="10"
+          android:textColor="@color/black"
+          android:textColorHint="@color/app_bg"
+          android:textSize="24sp"
+          app:layout_constraintBottom_toBottomOf="@+id/textView9"
+          app:layout_constraintStart_toEndOf="@+id/textView9"
+          app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+      <TextView
+          android:id="@+id/textView9"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="25dp"
+          android:gravity="center"
+          android:text="+91 | "
+          android:textSize="24sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <Button
+          android:id="@+id/login"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+
+
+          android:layout_marginEnd="5dp"
+          android:background="@drawable/round_bg"
+          android:backgroundTint="@color/green"
+          android:text="GET OTP"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          app:layout_constraintBottom_toBottomOf="@+id/mobileNum"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="@+id/mobileNum" />
+
+      <ProgressBar
+          android:id="@+id/processbar_login"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginEnd="50dp"
+          android:visibility="gone"
+          app:layout_constraintBottom_toBottomOf="@id/login"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="@id/login" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <TextView
+      android:id="@+id/skipnow"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="11dp"
+      android:layout_marginEnd="22dp"
+      android:fontFamily="@font/baloo"
+      android:text="Skip  now >>"
+      android:textSize="17sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

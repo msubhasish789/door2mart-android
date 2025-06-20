@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671607393942",
+    "project_id": "door2mart",
+    "storage_bucket": "door2mart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671607393942:android:5db8cf9a985cb86ee73cb7",
+        "android_client_info": {
+          "package_name": "knowledge.hood.door2mart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671607393942-gduovude5bf61fi5e3lvlifdgbivells.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh4oFwkA2_xwqbTkI7WOW29crnaRtlBxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671607393942-gduovude5bf61fi5e3lvlifdgbivells.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

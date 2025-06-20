@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Door2Mart</string>
+    <string name="app_tagLine">mart in one click</string>
+    <string name="home_ftb">home_ftb</string>
+    <string name="category_ftb">category_ftb</string>
+    <string name="cart_ftb">cart_ftb</string>
+    <string name="acc_ftb">acc_ftb</string>
+    <string name="order_ftb">order_ftb</string>
+    <string name="voice_srch">voice_search</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="otp_enter">OTP Enter</string>
+    <string name="edit_btn">Edit Info</string>
+</resources>

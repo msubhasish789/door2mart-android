@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Personal Information"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="eg. Subhash Chandra Bose"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="House/ Building No."
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/input_name" />
+
+    <EditText
+        android:id="@+id/input_house"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="eg. 38"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_name"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Road/ Area"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/input_house" />
+
+    <EditText
+        android:id="@+id/input_road"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="eg. Elgin Road, Sreepally"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_house"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="City"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/input_road" />
+
+    <EditText
+        android:id="@+id/input_city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="eg. Kolkata"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_road"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pincode"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/input_city" />
+
+    <EditText
+        android:id="@+id/input_pincode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="eg. 700020"
+        android:inputType="number"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_city"
+        app:layout_constraintStart_toStartOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/round_bg"
+        android:backgroundTint="#F82323"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/save_btn"
+        app:layout_constraintEnd_toStartOf="@+id/save_btn"
+        app:layout_constraintTop_toTopOf="@+id/save_btn"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_bg"
+        android:backgroundTint="@color/green"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/input_pincode"
+        app:layout_constraintTop_toBottomOf="@+id/input_pincode"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
