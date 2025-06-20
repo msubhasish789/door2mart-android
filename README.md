@@ -32,6 +32,17 @@ A full-stack e-commerce Android application for fruit & vegetable shopping built
   <img src="screens/track.png" width="200" />
 </p>
 
+## 📱 Screenshots
+
+| Splash Screen | Login | Home |
+|---------------|-------|------|
+| ![Splash](screens/01_splash_screen.png) | ![Login](screens/02_login.png) | ![Home](screens/03_home.png) |
+
+| Categories | Cart | Order Summary |
+|------------|------|----------------|
+| ![Category](screens/04_category.png) | ![Cart](screens/05_cart.png) | ![Order](screens/06_order_summary.png) |
+
+
 ## 🚀 Setup Instructions
 
 1. Clone the repo:
