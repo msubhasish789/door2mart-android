@@ -51,3 +51,12 @@ A full-stack e-commerce Android application for fruit & vegetable shopping built
 1. Clone the repo:
 ```bash
 git clone https://github.com/msubhasish789/door2mart-android.git
+
+## 📬 Contact
+
+If you liked this project or want to collaborate, feel free to reach out:
+
+- **👨‍💻 Developer:** Subhasish Mukherjee  
+- **📧 Email:** [msubhasish789@gmail.com](mailto:msubhasish789@gmail.com)  
+- **🔗 LinkedIn:** [linkedin.com/in/subhasish-mukherjee](https://www.linkedin.com/in/subhasish-mukherjee-5694741bb)
+
