@@ -46,15 +46,25 @@ A full-stack e-commerce Android application for fruit & vegetable shopping built
 
 
 
-## 🚀 Setup Instructions
+### 🧱 Prerequisites
 
-1. Clone the repo:
-```bash
-git clone https://github.com/msubhasish789/door2mart-android.git
- 
+- Android Studio (Arctic Fox or newer)
+- Java 8 or higher
+- Firebase project with phone authentication enabled
+- PHP server (XAMPP/WAMP) for admin dashboard
+- MySQL database (for journal management/admin panel)
+
 ---
 
-Let me know if you want help writing the **database setup guide** (`phpMyAdmin` instructions) or want to include a **video demo** in your README. That really impresses recruiters! 🚀
+### 📥 Clone the repository
+
+```bash
+git clone https://github.com/msubhasish789/door2mart-android.git
+cd door2mart-android
+```
+---
+
+> 🔴Let me know if you want help writing the **database setup guide** (`phpMyAdmin` instructions) or want to include a **video demo** in your README. That really impresses recruiters! 🚀
 ---
 
 
